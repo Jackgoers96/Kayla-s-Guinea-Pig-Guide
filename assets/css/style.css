@@ -1,0 +1,102 @@
+::root {
+    --cusrsive: 'Cedarville Cursive', cursive;
+}
+header {
+    background-color: white;
+    margin-top: 0;
+     
+
+}
+
+#home {
+    background-color:inherit;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 400%;
+    font-weight: bold;
+    position:absolute;
+    margin-left: 2%;
+    margin-top: 1%;
+
+
+    
+}
+
+#headerImg {
+    width: 60%;
+    height:325px;
+    margin-left: 20.5%;
+    z-index: 1;
+    border: none;
+}
+
+h1 {
+    z-index: 2;
+    display: block;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    font-family: 'Cedarville Cursive', cursive;
+}
+body {
+    background-color: pink;
+}
+nav {
+    display: flex;
+    margin-left: 75px;
+    margin-right: 75px;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Cedarville Cursive', cursive;
+}
+
+a {
+    font-family: 'Cedarville Cursive', cursive;
+    background-color: inherit;
+    border: none;
+    text-decoration: none;
+    font-size: 200%;
+    color: inherit;
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: rgb(250, 100, 125);
+}
+
+.article1 {
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    margin: 25px;
+}
+
+.article2 {
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    margin: 25px;
+}
+
+.text1 {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    margin-top: -70px;
+    font-family: 'Cedarville Cursive', cursive;
+    font-weight: bold;
+    font-size: 175%;
+}
+
+.text2 {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    margin-top: -70px;
+    font-family: 'Cedarville Cursive', cursive;
+    font-weight: bold;
+    font-size: 175%;
+}
+.breeds {
+    width: 520px;
+    height: 480px;
+}
